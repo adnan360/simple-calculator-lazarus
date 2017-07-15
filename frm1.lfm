@@ -1,0 +1,244 @@
+object Form1: TForm1
+  Left = 248
+  Height = 409
+  Top = 132
+  Width = 351
+  Caption = 'Test Calculator'
+  ClientHeight = 409
+  ClientWidth = 351
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.6.4.0'
+  object edtDisplay: TEdit
+    Left = 8
+    Height = 47
+    Top = 11
+    Width = 336
+    Alignment = taRightJustify
+    Enabled = False
+    Font.Height = -27
+    ParentFont = False
+    TabOrder = 0
+    Text = '0'
+  end
+  object btnNumber: TButton
+    Left = 8
+    Height = 59
+    Top = 272
+    Width = 62
+    Caption = '1'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnNumber1: TButton
+    Left = 72
+    Height = 59
+    Top = 272
+    Width = 62
+    Caption = '2'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnNumber2: TButton
+    Left = 136
+    Height = 59
+    Top = 272
+    Width = 62
+    Caption = '3'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object btnNumber3: TButton
+    Left = 8
+    Height = 59
+    Top = 208
+    Width = 62
+    Caption = '4'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object btnNumber4: TButton
+    Left = 72
+    Height = 59
+    Top = 208
+    Width = 62
+    Caption = '5'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btnNumber5: TButton
+    Left = 136
+    Height = 59
+    Top = 208
+    Width = 62
+    Caption = '6'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object btnNumber6: TButton
+    Left = 8
+    Height = 59
+    Top = 144
+    Width = 62
+    Caption = '7'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 7
+  end
+  object btnNumber7: TButton
+    Left = 72
+    Height = 59
+    Top = 144
+    Width = 62
+    Caption = '8'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 8
+  end
+  object btnNumber8: TButton
+    Left = 136
+    Height = 59
+    Top = 144
+    Width = 62
+    Caption = '9'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 9
+  end
+  object btnNumber9: TButton
+    Left = 8
+    Height = 59
+    Top = 336
+    Width = 126
+    Caption = '0'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 10
+  end
+  object btnNumber10: TButton
+    Left = 136
+    Height = 59
+    Top = 336
+    Width = 62
+    Caption = '.'
+    Font.Height = -21
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 11
+  end
+  object btnOperation: TButton
+    Left = 200
+    Height = 123
+    Top = 144
+    Width = 62
+    Caption = '+'
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 12
+  end
+  object btnOperationSubtract: TButton
+    Left = 200
+    Height = 43
+    Top = 96
+    Width = 62
+    Caption = '-'
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 13
+  end
+  object btnOperationSubtract1: TButton
+    Left = 200
+    Height = 123
+    Top = 272
+    Width = 62
+    Caption = '='
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 14
+  end
+  object btnOperationSubtract2: TButton
+    Left = 8
+    Height = 43
+    Top = 96
+    Width = 62
+    Caption = '%'
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 15
+  end
+  object btnOperationSubtract3: TButton
+    Left = 72
+    Height = 43
+    Top = 96
+    Width = 62
+    Caption = '/'
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 16
+  end
+  object btnOperationSubtract4: TButton
+    Left = 136
+    Height = 43
+    Top = 96
+    Width = 62
+    Caption = '*'
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 17
+  end
+  object btnOperationSubtract5: TButton
+    Left = 280
+    Height = 43
+    Top = 144
+    Width = 62
+    Caption = 'C'
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 18
+  end
+  object btnOperationSubtract6: TButton
+    Left = 280
+    Height = 43
+    Top = 192
+    Width = 62
+    Caption = 'AC'
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 19
+  end
+  object btnOperationSubtract7: TButton
+    Left = 280
+    Height = 43
+    Top = 96
+    Width = 62
+    Caption = '←'
+    Font.Height = -16
+    OnClick = btnNumberClick
+    ParentFont = False
+    TabOrder = 20
+  end
+end
