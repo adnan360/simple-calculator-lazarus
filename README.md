@@ -1,6 +1,8 @@
 # Simple Calculator in Lazarus
 Simple Calculator prepared as a test for a dead easy calculator class. You can create a calculator in 5 minutes with this. You can also extend this if you wish.
 
+![alt text](https://github.com/adnan360/simple-calculator-lazarus/raw/master/common/screenshots/screenshot-1.png "Simple Calculator in Lazarus - Simple calculator app that could be made 5 minutes! For practically any platform! - Screenshot after typing some digits")
+
 It is prepared to be in a way that is faster to build with.
 
 Just create the buttons. Set appropriate Captions. Copy the class file `calculatorunit.pas` in your project directory.
